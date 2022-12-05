@@ -1,0 +1,12 @@
+{
+  "name": "darker-software-tailwind-theme",
+  "version": "1.0.0",
+  "description": "Configured Tailwind Theme for portfolio project",
+  "main": "index.js",
+  "repository": "https://github.com/darker-software/Tailwind-Theme.git",
+  "author": "Jacob Darker <41199879+Darker21@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "tailwindcss": "3.2.4"
+  }
+}

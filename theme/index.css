@@ -1,0 +1,9 @@
+@tailwind base;
+
+@layer base {
+	@import url("./fonts/nova-mono");
+	@import url("./fonts/raleway");
+}
+
+@tailwind components;
+@tailwind utilities;
