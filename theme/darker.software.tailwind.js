@@ -7,11 +7,16 @@ module.exports = {
   ],
   theme: {
     colors: {
+      ...theme.colors,
 			blue: {
-        DEFAULT: '#2F93E4'
+        light: '#7cbbee',
+        DEFAULT: '#2F93E4',
+        dark: '#024c88'
       },
 			purple: {
-        DEFAULT: '#563EFF'
+        light: '#9185f1',
+        DEFAULT: '#563EFF',
+        dark: '#4a4097'
       },
 			gray: {
         light: '#d3dce6',
@@ -19,16 +24,24 @@ module.exports = {
 			  dark: '#1a1f24'
       },
 			pink: {
-        DEFAULT: '#d1729d'
+        light: '#ffb4d6',
+        DEFAULT: '#d1729d',
+        dark: '#793e59'
       },
 			orange: {
-        DEFAULT: '#ff7849'
+        light: '#f7a286',
+        DEFAULT: '#ff7849',
+        dark: '#9c3d1d'
       },
 			green: {
-        DEFAULT: '#13ce66'
+        light: '#9bf0c1',
+        DEFAULT: '#13ce66',
+        dark: '#086b35'
       },
 			yellow: {
-        DEFAULT: '#FACF39'
+        light: '#f3df95',
+        DEFAULT: '#FACF39',
+        dark: '#b19327'
       }
 		},
 		fontFamily: {
